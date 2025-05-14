@@ -1,0 +1,14 @@
+
+ delet the particulat element from the  array 
+
+
+const data=[10,20,30,40,50,60,70]
+ const pos=2
+ 
+ 
+ for(let i=pos; i<data.length-1;i++){
+   data[i]=data[i+1]
+  // console.log(data[i])
+  }
+ 
+console.log("test",data)
