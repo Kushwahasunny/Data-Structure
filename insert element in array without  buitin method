@@ -1,0 +1,17 @@
+const datata=[10,20,40,50,60,70,80]
+const pos=2
+const element=30
+
+
+for(let i=datata.length-1;i>=0;i--){
+ 
+  
+  if(i>=pos){
+    datata[i+1]=datata[i]
+    
+    if(i==pos){
+      datata[i]=element
+    }
+  }
+}
+ console.log(datata)
