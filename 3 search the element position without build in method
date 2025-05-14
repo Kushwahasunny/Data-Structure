@@ -1,0 +1,14 @@
+
+const data=[10,20,30,40,50,60,70,80,90]
+
+const elemet=40;
+let index=undefined;
+
+
+for(let i=0;i<data.length-1;i++){
+  if(data[i]===elemet){
+    index= i
+  }
+}
+
+console.log(index)
