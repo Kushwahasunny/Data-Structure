@@ -10,5 +10,5 @@ const data=[10,20,30,40,50,60,70]
    data[i]=data[i+1]
   // console.log(data[i])
   }
- 
-console.log("test",data)
+ data.length=date.length-1
+console.log(,data)
