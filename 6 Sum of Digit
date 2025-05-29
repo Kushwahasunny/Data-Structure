@@ -1,0 +1,23 @@
+
+
+
+function SumOfDigit(n){
+    let sum=0
+    let digists=n.toString()
+    // to add the loop on nymber that wil be convet into  String()
+
+ for(let i=0;i<digists.length;i++){
+    // console.log(digists[i],"inner")
+    sum= sum+ parseInt(digists[i]);
+    // after that we  will conveet into number 
+ }
+
+return sum
+}
+
+
+console.log(SumOfDigit(1280))
+console.log(SumOfDigit(5555))
+
+
+
