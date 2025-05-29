@@ -1,0 +1,11 @@
+
+ function SumOfAlllNatutral(n){
+    let sum =0
+    for(let  i=1;i<=n;i++){
+        sum=  sum+i
+    }
+    return sum
+ }
+
+ console.log(SumOfAlllNatutral(10))
+ console.log(SumOfAlllNatutral(5))
