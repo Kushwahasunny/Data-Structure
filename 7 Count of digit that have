@@ -1,0 +1,11 @@
+function caldigit(n){
+
+    let totoaldigit=n.toString()
+
+console.log(totoaldigit.length)
+    // for(let i=0;i<totoaldigit.length)
+
+}
+
+caldigit(123456789)
+caldigit(12345 )
