@@ -1,0 +1,20 @@
+//   check that the number is palidrome are  not 
+ 
+ function palidrom(n){
+   
+   let convertsting=n.toString()
+  // console.log(convertsting.reverse())
+  console.log(n)
+  
+  let sequesnces=n
+  let reversed = n.toString().split('').reverse().join('');
+  console.log(reversed)
+   
+  if(sequesnces==reversed){
+    console.log("its palidrome number")
+  }
+   else{
+     console.log("its not palidrome")
+   }
+ }
+ palidrom(121)
